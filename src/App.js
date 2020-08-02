@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import ComponentTopo from './Components/Topo/Topo';
+import ComponentFooter from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <header className="App-header">
         Keven rdr2
       </header>
+      <ComponentFooter />
     </div>
   );
 }
