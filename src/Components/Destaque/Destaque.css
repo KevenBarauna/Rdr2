@@ -1,5 +1,5 @@
 .destaque-background{
-    background-color: var(--cor-preto);
+    background-color: var(--cor-pretoTotal);
     padding: 35px;
     border-top: 10px solid var(--cor-cinzaSuperEscuro);
 }

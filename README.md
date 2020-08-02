@@ -56,6 +56,8 @@ Para entender mais é possível assistir um mini curso em [Alura](https://www.al
 [Emojis](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
 # Cores :art:
+![Padrão de cores](https://github.com/KevenBarauna//Rdr2/tree/develop/src/assets/git/padrao-cores.png?raw=true)
+![Padrão de cores](https://github.com/KevenBarauna//Rdr2/tree/develop/src/assets/git/padrao-cores.png)
 Preto - #141414<br>
 Vermelho - #DB202C<br>
 
