@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import ComponentPagina404 from './../components/Page404/Pagina404';
+import ComponentPagina404 from './../Components/Page404/Page404';
 
 
 class Page404 extends React.Component {

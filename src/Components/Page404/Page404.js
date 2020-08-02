@@ -9,7 +9,7 @@ import imagemModelo03 from './../../assets/imagem/404-modelo-03.png';
 import imagemModelo04 from './../../assets/imagem/404-modelo-04.png';
 import imagemModelo05 from './../../assets/imagem/404-modelo-05.png';
 
-const Footer = (props) => {
+const Pagina404 = (props) => {
     const {
 
     } = props;
@@ -44,4 +44,4 @@ const Footer = (props) => {
     );
 }
 
-export default Footer;
+export default Pagina404;
