@@ -2,6 +2,7 @@ import React from 'react';
 import { Form, Button, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Login.css';
+import Util from './../../Helpers/Util';
 
 const Login = (props) => {
 
@@ -35,7 +36,7 @@ const Login = (props) => {
 
                     <Row style={{ textAlign: 'center', marginTop: '30px' }}>
                         <Form.Group controlId="formBasicCheckbox" style={{ width: '100%' }}>
-                            <Form.Label className='login-criar-conta'>Novo no kevenRdr2? <Link to='/404'>Inscreva-se agora.</Link></Form.Label>
+                            <Form.Label className='login-criar-conta'>Novo no {Util.NOME_PROJETO}? <Link to='/404'>Inscreva-se agora.</Link></Form.Label>
                         </Form.Group>
                     </Row>
 
