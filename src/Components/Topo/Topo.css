@@ -12,7 +12,7 @@
 
 .topo-header{
     width: 100%;
-    background-color: #141414;
+    background-color: var(--cor-preto);
 }
 
 .topo-nav {
@@ -28,7 +28,7 @@
 
 .topo-nav a{
     text-transform: uppercase;
-    color: #DB202C;
+    color: var(--cor-vermelho);
     font-weight: bold;
     font-size: 12pt;
     text-decoration: none;
@@ -36,7 +36,7 @@
 }
 
 .topo-nav a:hover{
-color:#660007;
+    color:var(--cor-vermelhoVinho);
 }
 
 /* MOBILE */

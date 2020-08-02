@@ -44,5 +44,5 @@
     font-size: 10pt;
     margin-top: 15px;
     text-decoration: none;
-    color: #5e5050;
+    color: var(--cor-cinza);;
 }
