@@ -43,7 +43,7 @@ import React from "react";
 ```
 
 - Usar pt para tamanho de fonte no css.<br>
-<sub>Exemplo: no import do react:</sub> 
+<sub>Exemplo: no stule.css:</sub> 
 ```
 font-size: 12pt; 
 no lugar de 
@@ -53,13 +53,11 @@ font-size: 20px;
 # Dicas :speech_balloon:
 Para criar a logo online você pode fazer no [fontmeme](https://fontmeme.com/netflix-font/)<br>
 Para entender mais é possível assistir um mini curso em [Alura](https://www.alura.com.br/imersao-react/aula01-react-aluraflix)<br>
-[Emojis](https://www.webfx.com/tools/emoji-cheat-sheet/)
+Emojis do readme.md [Emojis](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
 # Cores :art:
-![Padrão de cores](https://github.com/KevenBarauna//Rdr2/tree/develop/src/assets/git/padrao-cores.png?raw=true)
-![Padrão de cores](https://github.com/KevenBarauna//Rdr2/tree/develop/src/assets/git/padrao-cores.png)
-Preto - #141414<br>
-Vermelho - #DB202C<br>
+- Toda as cores devem ser importadas do css global, que é o `ìndex.css`<br>
+![Padrão de cores](https://github.com/KevenBarauna/Rdr2/blob/develop/src/assets/git/padrao-cores.png?raw=true)
 
 # Fonte :a:
 Página 404 - [Poppins](https://fonts.google.com/specimen/Poppins?preview.text=P%C3%A1gina+404&preview.text_type=custom&sidebar.open=true&selection.family=Poppins:wght@300;400;600)
