@@ -12,36 +12,36 @@ const Footer = (props) => {
             <Row className='footer-row'>
                 <Col className='footer-col'>
                     <ul>
-                        <li><Link to='/404'>Dúvidas? Ligue 0800-761-4631</Link></li>
-                        <li><Link to='/404'>Perguntas frequentes</Link></li>
-                        <li><Link to='/404'>Relações com investidores</Link></li>
-                        <li><Link to='/404'>Formas de assistir</Link></li>
-                        <li><Link to='/404'>Informações corporativas</Link></li>
-                        <li><Link to='/404'>Originais Netflix</Link></li>
+                        <li><Link to='/404'>Dúvidas?</Link></li>
+                        <li><Link to='/404'>Sobre o projeto</Link></li>
+                        <li><Link to='/404'>Direitos autorais</Link></li>
+                        <li><Link to='/404'>Autor</Link></li>
+                        <li><Link to='/404'>Original</Link></li>
                     </ul>
                 </Col>
                 <Col className='footer-col'>
                     <ul>
-                        <li><Link to='/404'>Centro de ajuda</Link></li>
-                        <li><Link to='/404'>Carreiras</Link></li>
-                        <li><Link to='/404'>Termos de uso</Link></li>
-                        <li><Link to='/404'>Entre em contato</Link></li>
+                        <li><Link to='/404'>Contribuir</Link></li>
+                        <li><Link to='/404'>Lorem Ipsum is simply dummy</Link></li>
+                        <li><Link to='/404'>Lorem Ipsum is simply dummy</Link></li>
+                        <li><Link to='/404'>Lorem Ipsum is simply dummy</Link></li >
                     </ul>
                 </Col>
                 <Col className='footer-col'>
                     <ul>
-                        <li><Link to='/404'>Conta</Link></li>
-                        <li><Link to='/404'>Resgatar cartão pré-pago</Link></li>
-                        <li><Link to='/404'>Privacidade</Link></li>
-                        <li><Link to='/404'>Teste de velocidade</Link></li>
+                        <li><Link to='/404'>Contato</Link></li>
+                        <li><Link to='/404'>Linkedin</Link></li>
+                        <li><Link to='/404'>Instagram</Link></li>
+                        <li><Link to='/404'>Git</Link></li>
+                        <li><Link to='/404'>Email</Link></li>
                     </ul>
                 </Col >
                 <Col className='footer-col'>
                     <ul>
-                        <li><Link to='/404'>Imprensa</Link></li>
-                        <li><Link to='/404'>Comprar cartão pré-pago</Link></li>
-                        <li><Link to='/404'>Preferências de cookies</Link></li>
-                        <li><Link to='/404'>Avisos legais</Link></li >
+                        <li><Link to='/404'>Lorem Ipsum</Link></li>
+                        <li><Link to='/404'>Lorem Ipsum is simply dummy</Link></li>
+                        <li><Link to='/404'>Lorem Ipsum is simply dummy</Link></li>
+                        <li><Link to='/404'>Lorem Ipsum is simply dummy</Link></li >
                     </ul>
                 </Col >
                 <Col className='footer-col'>
