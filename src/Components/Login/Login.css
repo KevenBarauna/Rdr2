@@ -1,0 +1,40 @@
+.login-fundo{
+    min-height: 100vh;
+    min-width: 100%;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    display: block;
+    overflow: hidden;
+    background-image: url('./../../assets/imagem/WallpaperRdr2 (5).jpg');
+    background-color: #141414;
+}
+
+.login-container{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.548);
+    min-height: 50vh;
+    min-width: 25%;
+    width: 25%;
+}
+
+.login-form{
+    opacity: 100%;
+    color: #ffffff
+}
+
+.login-titulo{
+    font-size: 24pt;
+    margin-bottom: 23px;
+    font-weight: 400;
+}
+
+.login-criar-conta{
+    text-align: center;
+    font-weight: 100;
+    font-size: 10pt;
+}
