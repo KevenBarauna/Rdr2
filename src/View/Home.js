@@ -16,24 +16,24 @@ class Home extends React.Component {
                 <ComponentTopo />
 
                 <ComponentDestaque
-                    titulo={'Aproveite na TV.'}
-                    subTitulo={'Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros aparelhos.'}
+                    titulo={'Armas escondidas'}
+                    subTitulo={'Ache as melhores armas escondidas no mapa que não são vendidas nas lojas'}
                     imagem={imagemArma}
-                    altImagem={'imagem tv'}
+                    altImagem={'imagem arma'}
                     padrao={true}
                 />
                 <ComponentDestaque
-                    titulo={'Baixe séries para assistir offline.'}
-                    subTitulo={'Salve seus títulos favoritos e sempre tenha algo para assistir.'}
+                    titulo={'Guangue'}
+                    subTitulo={'Dicas de como cuidar da sua gangue'}
                     imagem={imagemGuangue}
-                    altImagem={'imagem mobile'}
+                    altImagem={'imagem gangue'}
                     padrao={false}
                 />
                 <ComponentDestaque
-                    titulo={'Assista quando quiser.'}
-                    subTitulo={'Assista no celular, tablet, smart TV ou notebook sem pagar a mais por isso.'}
+                    titulo={'Mapa'}
+                    subTitulo={'Localização de locois no mapa'}
                     imagem={imagemMapa}
-                    altImagem={'imagem mobile e tv'}
+                    altImagem={'imagem mapa'}
                     padrao={true}
                 />
                 <ComponentFooter />
