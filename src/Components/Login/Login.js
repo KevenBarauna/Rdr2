@@ -29,7 +29,6 @@ const Login = (props) => {
                         <Form.Check type="checkbox" label="Continuar conectado" />
                     </Form.Group>
 
-                    {/* <Button variant="primary" size="lg" block style={{ backgroundColor: Util.COR.vermelho, borderColor: Util.COR.vermelhoEscuro }}> */}
                     <Button variant="primary" size="lg" block>
                         Entrar
                     </Button>

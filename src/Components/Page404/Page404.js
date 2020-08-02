@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Form } from 'react-bootstrap';
+import { Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 import './Page404.css';
@@ -10,14 +10,11 @@ import imagemModelo04 from './../../assets/imagem/404-modelo-04.png';
 import imagemModelo05 from './../../assets/imagem/404-modelo-05.png';
 
 const Pagina404 = (props) => {
-    const {
-
-    } = props;
 
     const link = window.location.href;
 
     function sortearImagem() {
-        switch (Math.floor(Math.random() * 5)) {
+        switch (Math.floor(Math.random() * 6)) {
             case 1: return imagemModelo01;
             case 2: return imagemModelo02;
             case 3: return imagemModelo03;

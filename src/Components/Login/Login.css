@@ -7,7 +7,7 @@
     display: block;
     overflow: hidden;
     background-image: url('./../../assets/imagem/WallpaperRdr2 (5).jpg');
-    background-color: #141414;
+    background-color: var(--cor-preto);
 }
 
 .login-container{
@@ -24,7 +24,7 @@
 
 .login-form{
     opacity: 100%;
-    color: #ffffff
+    color: var(--cor-branco);
 }
 
 .login-titulo{
