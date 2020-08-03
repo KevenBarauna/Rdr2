@@ -3,6 +3,17 @@
 ###### Go to develop 
 `$ git checkout develop`
 
+### Porjeto: 
+ O projeto foi criado para estudar React, mostrando dicas do jogo red dead redemption 2. Acho que não vai ter back
+
+[ ] API spotify | Ou alguma API
+[ ] React bootstrap
+[ ] React router
+[ ] Reducers | Redux
+[ ] Axios
+...
+
+
 Este projeto foi iniciado com o [Create React App](https://github.com/facebook/create-react-app)<br>
  `$ npx create-react-app kevenrdr2`
 
@@ -25,7 +36,7 @@ No diretório do projeto, você pode executar:<br>
 
 Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo no navegador.
 
-# Padrão pessoal :bowtie:
+### Padrão pessoal :bowtie:
 - Toda classe de css deve começar com o nome do componente e separado por traço.<br>
 <sub>Exemplo: No componente topo, a classe de style que cuida da imagem do topo:</sub><br> 
 ```
@@ -50,14 +61,14 @@ no lugar de
 font-size: 20px;
 ```
 
-# Dicas :speech_balloon:
+### Dicas :speech_balloon:
 Para criar a logo online você pode fazer no [fontmeme](https://fontmeme.com/netflix-font/)<br>
 Para entender mais é possível assistir um mini curso em [Alura](https://www.alura.com.br/imersao-react/aula01-react-aluraflix)<br>
 Emojis do readme.md [Emojis](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
-# Cores :art:
-- Toda as cores devem ser importadas do css global, que é o `ìndex.css`<br>
+### Cores :art:
+- Toda as cores devem ser importadas do css global, que é o `index.css`<br>
 ![Padrão de cores](https://github.com/KevenBarauna/Rdr2/blob/develop/src/assets/git/padrao-cores.png?raw=true)
 
-# Fonte :a:
-Página 404 - [Poppins](https://fonts.google.com/specimen/Poppins?preview.text=P%C3%A1gina+404&preview.text_type=custom&sidebar.open=true&selection.family=Poppins:wght@300;400;600)
+### Fonte :a:
+Fonte padão <sub>(definida no `index.css`)</sub>  - [Poppins](https://fonts.google.com/specimen/Poppins?preview.text=P%C3%A1gina+404&preview.text_type=custom&sidebar.open=true&selection.family=Poppins:wght@300;400;600)

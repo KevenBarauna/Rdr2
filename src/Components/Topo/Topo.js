@@ -18,7 +18,7 @@ const Topo = (props) => {
                 <Col className='topo-nav' sm={12} md={7} lg={7}>
                     <Row className='topo-item'>
                         <li><Link to='/404'>Mapa</Link></li>
-                        <li><Link to='/404'>Armas</Link></li>
+                        <li><Link to='/armas'>Armas</Link></li>
                         <li><Link to='/404'>Tesouros</Link></li>
                         <li><Link to='/404'>Cartas</Link></li>
                         <li><Link to='/404'>Roupas</Link></li>
