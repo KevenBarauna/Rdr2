@@ -4,14 +4,15 @@
 `$ git checkout develop`
 
 ### Porjeto: 
- O projeto foi criado para estudar React, mostrando dicas do jogo red dead redemption 2. Acho que não vai ter back
+ As poucas experiências acumuladas como dev, demonstram que o desenvolvimento front-end é muito importante e amplo, uma biblioteca que tenho visto crescer cada vez mais é o [React](https://pt-br.reactjs.org/), biblioteca JavaScript muito popular (É utilizado nos sites da Netflix, Imgur, Feedly, Airbnb, SeatGeek, HelloSign, Walmart e outro). Com o intuito de praticar criei uma interface de usuário que mostra dicas bem legais do jogo [Red dead redemption 2](https://www.rockstargames.com/reddeadredemption2/), pois é um jogo que estou gostando muito, então como no meu tempo livre estou jogando e no tempo de trabalho entre uma folga e outra estou estudando React criei esse projeto para praticar bastante! :)
 
-[ ] API spotify | Ou alguma API
-[ ] React bootstrap
-[ ] React router
-[ ] Reducers | Redux
-[ ] Axios
-...
+
+[] API spotify | Ou alguma API<br>
+[ ] React bootstrap<br>
+[  ] React router<br>
+[ ] Reducers | Redux<br>
+[ ] Axios<br>
+...<br>
 
 
 Este projeto foi iniciado com o [Create React App](https://github.com/facebook/create-react-app)<br>
@@ -31,8 +32,8 @@ npm install react-router-dom
 
 ### Iniciar o projeto :outbox_tray:
 No diretório do projeto, você pode executar:<br>
-`npm install` - <sub>Instalar todas as dependências do projeto<sub><br>
-`npm start` - <sub>Iniciar o projeto<sub>
+`npm install` - <sub>Instalar todas as dependências do projeto</sub><br>
+`npm start` - <sub>Iniciar o projeto</sub>
 
 Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo no navegador.
 
@@ -46,7 +47,7 @@ no lugar de
 ```
 
 - Usar aspas simples.<br>
-<sub>Exemplo: no import do react:</sub>
+<sub>Exemplo: no import do react</sub>
 ```
 import React from 'react'; 
 no lugar de  
@@ -54,21 +55,28 @@ import React from "react";
 ```
 
 - Usar pt para tamanho de fonte no css.<br>
-<sub>Exemplo: no stule.css:</sub> 
+<sub>Exemplo: no style.css</sub> 
 ```
 font-size: 12pt; 
 no lugar de 
 font-size: 20px;
 ```
 
+- Localização arquivos.<br>
+<sub>Imagens dentro do projeto: `src/assets/imagem`</sub> 
+<sub>Imagens do readme: `src/assets/git`</sub> 
+<sub>Css: Dentro de cada pasta de cada componente deve conter seu próprio arquivo css</sub> 
+<sub>Nome do projeto: Pegue o nome do projeto dentro de `Helpers/Util` pois o nome do projeto deve ser alterado em breve</sub> 
+<sub>Página: Toda página nova deve ser inserida em `src/View` e seus componentes devem ser criados em `src/Components` , caso esse componente seja uma página intenira a pasta que contém essse componente deve começar com a palavra `Page`</sub> 
+
 ### Dicas :speech_balloon:
 Para criar a logo online você pode fazer no [fontmeme](https://fontmeme.com/netflix-font/)<br>
 Para entender mais é possível assistir um mini curso em [Alura](https://www.alura.com.br/imersao-react/aula01-react-aluraflix)<br>
-Emojis do readme.md [Emojis](https://www.webfx.com/tools/emoji-cheat-sheet/)
+[Emojis](https://www.webfx.com/tools/emoji-cheat-sheet/) do README.md
 
 ### Cores :art:
-- Toda as cores devem ser importadas do css global, que é o `index.css`<br>
+- Toda as cores devem ser importadas do css global, que é o `index.css`<br><br>
 ![Padrão de cores](https://github.com/KevenBarauna/Rdr2/blob/develop/src/assets/git/padrao-cores.png?raw=true)
 
 ### Fonte :a:
-Fonte padão <sub>(definida no `index.css`)</sub>  - [Poppins](https://fonts.google.com/specimen/Poppins?preview.text=P%C3%A1gina+404&preview.text_type=custom&sidebar.open=true&selection.family=Poppins:wght@300;400;600)
+Fonte padão - [Poppins](https://fonts.google.com/specimen/Poppins?preview.text=P%C3%A1gina+404&preview.text_type=custom&sidebar.open=true&selection.family=Poppins:wght@300;400;600) <sub>(definida no `index.css`)</sub>
