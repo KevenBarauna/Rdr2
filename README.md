@@ -3,16 +3,8 @@
 ###### Go to develop 
 `$ git checkout develop`
 
-### Porjeto: 
+### Projeto: :mailbox: 
  As poucas experiências acumuladas como dev, demonstram que o desenvolvimento front-end é muito importante e amplo, uma biblioteca que tenho visto crescer cada vez mais é o [React](https://pt-br.reactjs.org/), biblioteca JavaScript muito popular (É utilizado nos sites da Netflix, Imgur, Feedly, Airbnb, SeatGeek, HelloSign, Walmart e outro). Com o intuito de praticar criei uma interface de usuário que mostra dicas bem legais do jogo [Red dead redemption 2](https://www.rockstargames.com/reddeadredemption2/), pois é um jogo que estou gostando muito, então como no meu tempo livre estou jogando e no tempo de trabalho entre uma folga e outra estou estudando React criei esse projeto para praticar bastante! :)
-
-
-[] API spotify | Ou alguma API<br>
-[ ] React bootstrap<br>
-[  ] React router<br>
-[ ] Reducers | Redux<br>
-[ ] Axios<br>
-...<br>
 
 
 Este projeto foi iniciado com o [Create React App](https://github.com/facebook/create-react-app)<br>

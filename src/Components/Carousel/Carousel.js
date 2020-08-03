@@ -16,7 +16,7 @@ const Carrossel = (props) => {
 
     return (
 
-        <Link to={'/404'}>
+        <Link to={link}>
             <img className='dica-imagem' src={imagem} alt={altImagem}></img>
             <Carousel.Caption>
                 <h3>{titulo}</h3>
