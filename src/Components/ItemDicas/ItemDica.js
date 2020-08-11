@@ -16,12 +16,13 @@ const ItemDica = (props) => {
             <Col sm={6} md={6} lg={6}>
                 <Carousel>
                     {imagem.map((img, index) => (
-                        <Carousel.Item>
+                        <Carousel.Item key={index}>
                             <ComponentCarousel
                                 imagem={img.imagem}
                                 altImagem={img.alt}
                                 titulo={img.titulo}
                                 subTitulo={img.subTitulo}
+                                link={'#'}
                             />
                         </Carousel.Item>
                     ))}
