@@ -55,11 +55,11 @@ font-size: 20px;
 ```
 
 - Localização arquivos.<br>
-<sub>Imagens dentro do projeto: `src/assets/imagem`</sub> 
-<sub>Imagens do readme: `src/assets/git`</sub> 
-<sub>Css: Dentro de cada pasta de cada componente deve conter seu próprio arquivo css</sub> 
-<sub>Nome do projeto: Pegue o nome do projeto dentro de `Helpers/Util` pois o nome do projeto deve ser alterado em breve</sub> 
-<sub>Página: Toda página nova deve ser inserida em `src/View` e seus componentes devem ser criados em `src/Components` , caso esse componente seja uma página intenira a pasta que contém essse componente deve começar com a palavra `Page`</sub> 
+<sub>Imagens dentro do projeto: `src/assets/imagem`</sub> <br>
+<sub>Imagens do readme: `src/assets/git`</sub> <br>
+<sub>Css: Dentro de cada pasta de cada componente deve conter seu próprio arquivo css</sub> <br>
+<sub>Nome do projeto: Pegue o nome do projeto dentro de `Helpers/Util` pois o nome do projeto deve ser alterado em breve</sub> <br>
+<sub>Página: Toda página nova deve ser inserida em `src/View` e seus componentes devem ser criados em `src/Components` , caso esse componente seja uma página intenira a pasta que contém essse componente deve começar com a palavra `Page`</sub> <br>
 
 ### Dicas :speech_balloon:
 Para criar a logo online você pode fazer no [fontmeme](https://fontmeme.com/netflix-font/)<br>
