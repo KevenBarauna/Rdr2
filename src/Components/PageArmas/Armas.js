@@ -33,9 +33,14 @@ const Armas = (props) => {
                 </Carousel.Item>
             </Carousel>
             <ComponentItemDica
-                titulo={'Broken Pirate Sword'}
-                subTitulo={'Arma branca'}
+                titulo={'Machadinha Viking'}
+                subTitulo={'Arma branca rara, localizada em uma caverna na floresta, perto de Annesburs'}
                 imagem={ConstItemDicaArma.DICAS_01}
+                dano={'3.2'}
+                alcance={'1'}
+                cadencia={'0'}
+                recarga={'0'}
+                precisao={'1'}
             />
             <ComponentItemDica
                 titulo={'Machado legal'}
