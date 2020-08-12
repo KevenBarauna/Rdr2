@@ -1,6 +1,4 @@
 import * as React from 'react';
-import ComponentTopo from './../Components/Topo/Topo';
-import ComponentFooter from './../Components/Footer/Footer';
 import ComponentDestaque from './../Components/Destaque/Destaque';
 
 import imagemArma from './../assets/imagem/arma.png';
@@ -13,8 +11,6 @@ class Home extends React.Component {
     render() {
         return (
             <>
-                <ComponentTopo />
-
                 <ComponentDestaque
                     titulo={'Armas escondidas'}
                     subTitulo={'Ache as melhores armas escondidas no mapa que não são vendidas nas lojas'}
@@ -36,7 +32,6 @@ class Home extends React.Component {
                     altImagem={'imagem mapa'}
                     padrao={true}
                 />
-                <ComponentFooter />
             </>
         );
     }

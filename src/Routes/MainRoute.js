@@ -1,5 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Redirect, Switch } from 'react-router-dom';
+import ComponentTopo from './../Components/Topo/Topo';
+import ComponentFooter from './../Components/Footer/Footer';
 
 import Home from './../View/Home';
 import Page404 from './../View/Page404';
@@ -8,6 +10,7 @@ import Armas from './../View/Armas';
 
 const MainRoute = () => (
     < BrowserRouter >
+        <ComponentTopo />
         <Switch>
             <Route path='/' component={Home} exact />
             <Route path='/home' component={Home} />
@@ -16,6 +19,7 @@ const MainRoute = () => (
             <Route path='/404' component={Page404} />
             <Redirect to='/404' />
         </Switch>
+        <ComponentFooter />
     </BrowserRouter >
 );
 
