@@ -1,6 +1,12 @@
 .botaoTopo{
     background-color: var(--cor-vermelhoEscuro);
     padding: 11px;
+    transition: background-color 3s;
+}
+
+.botaoTopo:hover{
+    background-color: var(--cor-laranja);
+    padding: 11px;
 }
 
 .botaoTopo-container{
