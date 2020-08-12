@@ -1,0 +1,10 @@
+.botaoTopo{
+    background-color: var(--cor-vermelhoEscuro);
+    padding: 11px;
+}
+
+.botaoTopo-container{
+    padding: 10px;
+    background-color: var(--cor-preto);
+    text-align: center;
+}

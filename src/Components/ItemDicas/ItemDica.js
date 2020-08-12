@@ -13,6 +13,7 @@ const ItemDica = (props) => {
         cadencia, //SUBTITULO DO TEXTO [STRING]
         recarga, //SUBTITULO DO TEXTO [STRING]
         precisao, //SUBTITULO DO TEXTO [STRING]
+        condicao, //SUBTITULO DO TEXTO [STRING]
     } = props;
 
 
@@ -38,11 +39,12 @@ const ItemDica = (props) => {
                 <p className='itemDica-titulo'>{titulo}</p>
                 <p className='itemDica-sub-titulo'>{subTitulo}</p>
                 <p>{' '}</p>
-                {dano ? <p className='itemDica-sub-titulo'>Dano: {dano}</p> : null}
-                {alcance ? <p className='itemDica-sub-titulo'>Alcance: {alcance}</p> : null}
-                {cadencia ? <p className='itemDica-sub-titulo'>Cadência: {cadencia}</p> : null}
-                {recarga ? <p className='itemDica-sub-titulo'>Recarga: {recarga}</p> : null}
-                {precisao ? <p className='itemDica-sub-titulo'>Precisão: {precisao}</p> : null}
+                {dano ? <p className='itemDica-informacoes'>Dano: {dano}</p> : null}
+                {alcance ? <p className='itemDica-informacoes'>Alcance: {alcance}</p> : null}
+                {cadencia ? <p className='itemDica-informacoes'>Cadência: {cadencia}</p> : null}
+                {recarga ? <p className='itemDica-informacoes'>Recarga: {recarga}</p> : null}
+                {precisao ? <p className='itemDica-informacoes'>Precisão: {precisao}</p> : null}
+                {condicao ? <p className='itemDica-informacoes'>Condição: {condicao}</p> : null}
             </Col>
         </Row>
     );

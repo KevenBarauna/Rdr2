@@ -17,6 +17,11 @@
     color: var(--cor-branco);
     font-size: 16pt;
     width: 35%;
+    margin-bottom: 20px;
+}
+
+.itemDica-informacoes{
+    color: var(--cor-laranja);
 }
 
 
