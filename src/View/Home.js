@@ -6,7 +6,6 @@ import imagemGuangue from './../assets/imagem/gangue.png';
 import imagemMapa from './../assets/imagem/mapa.png';
 
 class Home extends React.Component {
-    componentDidMount() { }
 
     render() {
         return (

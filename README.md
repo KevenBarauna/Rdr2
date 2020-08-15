@@ -80,18 +80,19 @@ Fonte padão - [Poppins](https://fonts.google.com/specimen/Poppins?preview.text=
 
 |  Propriedade  |     Tipo      |     Descrição                                           |             Exemplo            |
 | ------------- | ------------- | ------------------------------------------------------- |------------------------------- |
-|     id        |     string    | key unica, seguinda a ordem crescente (01,02,03,04 ...) |              01                |
+|     id        |     string    | key unica, seguindo a ordem crescente (01,02,03,04 ...) |              01                |
 |imagem |[imagem](https://create-react-app.dev/docs/adding-images-fonts-and-files/)| Imagem exibida no topo do card.  1000x565 Pixel| import imagem from './assets/imagem/Dica-14.jpg';
 |     titulo    |     string    | Título exibido abaixo da imagem                         | 'Cavalos raros'
 |     texto     |     string    | Texto exibido no corpo do card                          | 'Esse é o melhor cavalo do jogo.'
 
 <br>
+
  - Adicionar nova arma?
     No arquivo `src/Helpers/Data/ConstItemDicaArma` contem um Array, adicione um novo objeto nesse Array com as seguintes informações:<br>
-    
+
 |  Propriedade  |     Tipo      |     Descrição                                           |             Exemplo            |
 | ------------- | ------------- | ------------------------------------------------------- |------------------------------- |
-|id             |     string    | key unica, seguinda a ordem crescente (01,02,03,04 ...) |              01                |
+|id             |     string    | key unica, seguindo a ordem crescente (01,02,03,04 ...) |              01                |
 |titulo         |     string    | Título exibido ao lado da imagem                        |       'Machadinha Dupla'       |
 |imagem         |      Array    | Imagem exibida no carousel. 1277x674 Pixel              | [imagemDica06Img01, imagemDica06Img02, imagemDica06Img03, imagemDica06Img04],
 |alt            |     string    | [alt da imagem](https://www.w3schools.com/tags/att_img_alt.asp)| 'imagem Machadinha'

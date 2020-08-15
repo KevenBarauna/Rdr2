@@ -3,7 +3,6 @@ import ComponentAmas from './../Components/PageArmas/Armas';
 
 
 class Armas extends React.Component {
-    componentDidMount() { }
 
     render() {
         return (

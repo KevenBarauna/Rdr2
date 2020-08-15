@@ -4,7 +4,6 @@ import ComponentPagina404 from './../Components/Page404/Page404';
 
 
 class Page404 extends React.Component {
-    componentDidMount() { }
 
     render() {
         return (

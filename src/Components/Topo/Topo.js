@@ -19,7 +19,7 @@ const Topo = (props) => {
                     <Row className='topo-item'>
                         <li><Link to='/404'>Mapa</Link></li>
                         <li><Link to='/armas'>Armas</Link></li>
-                        <li><Link to='/404'>Roupas</Link></li>
+                        <li><Link to='/roupas'>Roupas</Link></li>
                         <li><Link to='/404'>Músicas</Link></li>
                         <li><Link to='/dicas'>Dicas</Link></li>
                         <li><Link to='/404'>Fotos</Link></li>

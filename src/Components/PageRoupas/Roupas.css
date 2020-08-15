@@ -1,0 +1,25 @@
+.Roupas-background{
+    background-color: var(--cor-pretoTotal);
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 10px;
+    border-top: 10px solid var(--cor-cinzaSuperEscuro);
+}
+
+.Roupas-figura{
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.Roupas-localizacao{
+    text-align: center;
+    color: var(--cor-laranja);
+    font-weight: 100;
+    font-size: 8pt;
+}
+
+.Roupas-texto{
+    text-align: center;
+    font-size: 13pt;
+}

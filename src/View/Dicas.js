@@ -3,7 +3,6 @@ import ComponentDicas from './../Components/PageDicas/Dicas';
 
 
 class Dicas extends React.Component {
-    componentDidMount() { }
 
     render() {
         return (
