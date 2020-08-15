@@ -7,6 +7,7 @@ import Home from './../View/Home';
 import Page404 from './../View/Page404';
 import Login from './../View/Login';
 import Armas from './../View/Armas';
+import Dicas from './../View/Dicas';
 
 const MainRoute = () => (
     < BrowserRouter >
@@ -16,6 +17,7 @@ const MainRoute = () => (
             <Route path='/home' component={Home} />
             <Route path='/login' component={Login} />
             <Route path='/armas' component={Armas} />
+            <Route path='/dicas' component={Dicas} />
             <Route path='/404' component={Page404} />
             <Redirect to='/404' />
         </Switch>
