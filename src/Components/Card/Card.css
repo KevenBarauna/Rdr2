@@ -1,0 +1,16 @@
+.card-card{
+    width: 25rem;
+    margin-left: 50px;
+    margin-bottom: 35px;
+}
+
+.card-titulo{
+    font-size: 20pt;
+    color: var(--cor-vermelhoEscuro);
+    font-weight: 400;
+}
+
+.card-imagem{
+    width: 395px;
+    padding: 1px;
+}
