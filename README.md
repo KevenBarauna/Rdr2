@@ -72,3 +72,15 @@ Para entender mais é possível assistir um mini curso em [Alura](https://www.al
 
 ### Fonte :a:
 Fonte padão - [Poppins](https://fonts.google.com/specimen/Poppins?preview.text=P%C3%A1gina+404&preview.text_type=custom&sidebar.open=true&selection.family=Poppins:wght@300;400;600) <sub>(definida no `index.css`)</sub>
+
+#### Perguntas :a:
+    * Adicionar nova dica?
+|  Propriedade  |     Tipo      |     Descrição                                           |             Exemplo            |
+| ------------- | ------------- | ------------------------------------------------------- |------------------------------- |
+|     id        |     string    | key unica, seguinda a ordem crescente (01,02,03,04 ...) |              01                |
+|     imagem    |     imagem    | Imagem exibida no topo do card.  1000x565 Pixel         | import imagem from './assets/imagem/Dica-14.jpg';
+|     titulo    |     string    | Título exibido abaixo da imagem                         | 'Cavalos raros'
+|     texto     |     string    | Texto exibido no corpo do card                          | 'Esse é o melhor cavalo do jogo.'
+
+#### Menções :a:
+- As dicas da [página de dicas](http://localhost:3000/dicas) foi retirado do [techtudo](https://www.techtudo.com.br/listas/2018/11/red-dead-redemption-2-confira-dez-dicas-para-mandar-bem-no-jogo.ghtml)
