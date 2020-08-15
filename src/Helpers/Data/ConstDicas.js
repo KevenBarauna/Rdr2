@@ -69,9 +69,9 @@ export default class ConstDicas {
             {
                 id: '08',
                 imagem: imagemDica08,
-                alt: 'Armazenamento',
-                titulo: 'Armazenamento',
-                texto: 'Armazene armas, roupas, máscaras e chapéus na sela do seu cavalo. Você também pode armazenar mortes recentes; pássaros e pequenos animais podem ser fixados na sela ou você pode armazenar animais maiores na parte traseira do cavalo. ',
+                alt: 'Cuidado na estrada',
+                titulo: 'Cuidado na estrada',
+                texto: 'Nas estradas existem muito perigo, como assaltos, ande sempre preparado',
             },
             {
                 id: '09',
