@@ -30,219 +30,99 @@ import imagemDica06Img04 from './../../assets/imagem/DicaArmas/id-06-img-04.png'
 
 export default class ConstItemDicaArma {
 
-    static get DICAS_01() {
-        const alt = 'imagem Machadinha Viking';
-        const titulo = ' ';
-        const subTitulo = 'Machadinha Viking';
+    static get DICAS() {
         return [
             {
                 id: '01',
-                imagem: imagemDica01Img01,
-                alt: alt,
-                titulo: titulo,
-                subTitulo: subTitulo,
+                titulo: 'Machadinha',
+                subtitulo: 'Arma branca rara, localizada em uma caverna na floresta, perto de Annesburs',
+                imagem: [imagemDica01Img01, imagemDica01Img02, imagemDica01Img03, imagemDica01Img04],
+                alt: 'imagem Machadinha Viking',
+                tituloImagem: ' ',
+                subTituloImagem: 'Machadinha Viking',
+                dano: '3.2',
+                alcance: '1',
+                cadencia: '0',
+                recarga: '0',
+                precisao: '1',
+                condicao: '4',
             },
             {
                 id: '02',
-                imagem: imagemDica01Img02,
-                alt: alt,
-                titulo: titulo,
-                subTitulo: subTitulo,
+                titulo: 'Machadinha',
+                subtitulo: 'Arma branca unica, localizada no fundo de uma casa, perto de Valentine',
+                imagem: [imagemDica02Img01, imagemDica02Img02, imagemDica02Img03, imagemDica02Img04],
+                alt: 'imagem Machadinha',
+                tituloImagem: ' ',
+                subTituloImagem: 'Machadinha',
+                dano: '3.2',
+                alcance: '1',
+                cadencia: '0',
+                recarga: '0',
+                precisao: '1',
+                condicao: '4',
             },
             {
                 id: '03',
-                imagem: imagemDica01Img03,
-                alt: alt,
-                titulo: titulo,
-                subTitulo: subTitulo,
+                titulo: 'Machadinha Dupla',
+                subtitulo: 'Arma branca unica, localizada na floresta, próximo de uma antiga lareira, perto de Valentine',
+                imagem: [imagemDica03Img01, imagemDica03Img02, imagemDica03Img03, imagemDica03Img04],
+                alt: 'imagem Machadinha Dupla',
+                tituloImagem: ' ',
+                subTituloImagem: 'Machadinha Dupla',
+                dano: '3.2',
+                alcance: '1',
+                cadencia: '0',
+                recarga: '0',
+                precisao: '1',
+                condicao: '4',
             },
             {
                 id: '04',
-                imagem: imagemDica01Img04,
-                alt: alt,
-                titulo: titulo,
-                subTitulo: subTitulo,
+                titulo: 'Machadinha de Corte',
+                subtitulo: 'Arma branca unica, localizada na floresta, próximo de uma fogueira, perto de Annesburs',
+                imagem: [imagemDica04Img01, imagemDica04Img02, imagemDica04Img03, imagemDica04Img04],
+                alt: 'imagem Machadinha de Corte',
+                tituloImagem: ' ',
+                subTituloImagem: 'Machadinha de Corte',
+                dano: '3.2',
+                alcance: '1',
+                cadencia: '0',
+                recarga: '0',
+                precisao: '1',
+                condicao: '4',
+            },
+            {
+                id: '05',
+                titulo: 'Machadinha de Caçador',
+                subtitulo: 'Arma branca unica, localizada na floresta, próximo de uma casa, escondida em um tronco de árvore, perto de Annesburs',
+                imagem: [imagemDica05Img01, imagemDica05Img02, imagemDica05Img03, imagemDica05Img04],
+                alt: 'imagem Machadinha de Caçador',
+                tituloImagem: ' ',
+                subTituloImagem: 'Machadinha de Caçador',
+                dano: '3.2',
+                alcance: '1',
+                cadencia: '0',
+                recarga: '0',
+                precisao: '1',
+                condicao: '4',
+            },
+            {
+                id: '06',
+                titulo: 'Machadinha Dupla Corroída',
+                subtitulo: 'Arma branca unica, localizada na cidade, próximo de uma casa vermelha, em Annesburs',
+                imagem: [imagemDica06Img01, imagemDica06Img02, imagemDica06Img03, imagemDica06Img04],
+                alt: 'imagem Machadinha Dupla Corroída',
+                tituloImagem: ' ',
+                subTituloImagem: 'Machadinha Dupla Corroída',
+                dano: '3.2',
+                alcance: '1',
+                cadencia: '0',
+                recarga: '0',
+                precisao: '1',
+                condicao: '4',
             },
         ];
     }
 
-    static get DICAS_02() {
-        const alt = 'imagem Machadinha';
-        const titulo = ' ';
-        const subTitulo = 'Machadinha';
-        return [
-            {
-                id: '01',
-                imagem: imagemDica02Img01,
-                alt: alt,
-                titulo: titulo,
-                subTitulo: subTitulo,
-            },
-            {
-                id: '02',
-                imagem: imagemDica02Img02,
-                alt: alt,
-                titulo: titulo,
-                subTitulo: subTitulo,
-            },
-            {
-                id: '03',
-                imagem: imagemDica02Img03,
-                alt: alt,
-                titulo: titulo,
-                subTitulo: subTitulo,
-            },
-            {
-                id: '04',
-                imagem: imagemDica02Img04,
-                alt: alt,
-                titulo: titulo,
-                subTitulo: subTitulo,
-            },
-        ];
-    }
-
-    static get DICAS_03() {
-        const alt = 'imagem Machadinha Dupla';
-        const titulo = ' ';
-        const subTitulo = 'Machadinha Dupla';
-        return [
-            {
-                id: '01',
-                imagem: imagemDica03Img01,
-                alt: alt,
-                titulo: titulo,
-                subTitulo: subTitulo,
-            },
-            {
-                id: '02',
-                imagem: imagemDica03Img02,
-                alt: alt,
-                titulo: titulo,
-                subTitulo: subTitulo,
-            },
-            {
-                id: '03',
-                imagem: imagemDica03Img03,
-                alt: alt,
-                titulo: titulo,
-                subTitulo: subTitulo,
-            },
-            {
-                id: '04',
-                imagem: imagemDica03Img04,
-                alt: alt,
-                titulo: titulo,
-                subTitulo: subTitulo,
-            },
-        ];
-    }
-
-    static get DICAS_04() {
-        const alt = 'imagem Machadinha de Corte';
-        const titulo = ' ';
-        const subTitulo = 'Machadinha de Corte';
-        return [
-            {
-                id: '01',
-                imagem: imagemDica04Img01,
-                alt: alt,
-                titulo: titulo,
-                subTitulo: subTitulo,
-            },
-            {
-                id: '02',
-                imagem: imagemDica04Img02,
-                alt: alt,
-                titulo: titulo,
-                subTitulo: subTitulo,
-            },
-            {
-                id: '03',
-                imagem: imagemDica04Img03,
-                alt: alt,
-                titulo: titulo,
-                subTitulo: subTitulo,
-            },
-            {
-                id: '04',
-                imagem: imagemDica04Img04,
-                alt: alt,
-                titulo: titulo,
-                subTitulo: subTitulo,
-            },
-        ];
-    }
-
-    static get DICAS_06() {
-        const alt = 'imagem Machadinha de Caçador';
-        const titulo = ' ';
-        const subTitulo = 'Machadinha de Caçador';
-        return [
-            {
-                id: '01',
-                imagem: imagemDica05Img01,
-                alt: alt,
-                titulo: titulo,
-                subTitulo: subTitulo,
-            },
-            {
-                id: '02',
-                imagem: imagemDica05Img02,
-                alt: alt,
-                titulo: titulo,
-                subTitulo: subTitulo,
-            },
-            {
-                id: '03',
-                imagem: imagemDica05Img03,
-                alt: alt,
-                titulo: titulo,
-                subTitulo: subTitulo,
-            },
-            {
-                id: '04',
-                imagem: imagemDica05Img04,
-                alt: alt,
-                titulo: titulo,
-                subTitulo: subTitulo,
-            },
-        ];
-    }
-
-    static get DICAS_05() {
-        const alt = 'imagem Machadinha Dupla Corroída';
-        const titulo = ' ';
-        const subTitulo = 'Machadinha Dupla Corroída';
-        return [
-            {
-                id: '01',
-                imagem: imagemDica06Img01,
-                alt: alt,
-                titulo: titulo,
-                subTitulo: subTitulo,
-            },
-            {
-                id: '02',
-                imagem: imagemDica06Img02,
-                alt: alt,
-                titulo: titulo,
-                subTitulo: subTitulo,
-            },
-            {
-                id: '03',
-                imagem: imagemDica06Img03,
-                alt: alt,
-                titulo: titulo,
-                subTitulo: subTitulo,
-            },
-            {
-                id: '04',
-                imagem: imagemDica06Img04,
-                alt: alt,
-                titulo: titulo,
-                subTitulo: subTitulo,
-            },
-        ];
-    }
 }

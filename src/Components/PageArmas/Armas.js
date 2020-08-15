@@ -41,72 +41,23 @@ const Armas = (props) => {
                     />
                 </Carousel.Item>
             </Carousel>
-            <ComponentItemDica
-                titulo={'Machadinha Viking'}
-                subTitulo={'Arma branca rara, localizada em uma caverna na floresta, perto de Annesburs'}
-                imagem={constItemDicaArma.DICAS_01}
-                dano={'3.2'}
-                alcance={'1'}
-                cadencia={'0'}
-                recarga={'0'}
-                precisao={'1'}
-                condicao={'4'}
-            />
-            <ComponentItemDica
-                titulo={'Machadinha'}
-                subTitulo={'Arma branca unica, localizada no fundo de uma casa, perto de Valentine'}
-                imagem={constItemDicaArma.DICAS_02}
-                dano={'3.2'}
-                alcance={'1'}
-                cadencia={'0'}
-                recarga={'0'}
-                precisao={'1'}
-                condicao={'4'}
-            />
-            <ComponentItemDica
-                titulo={'Machadinha Dupla'}
-                subTitulo={'Arma branca unica, localizada na floresta, próximo de uma antiga lareira, perto de Valentine'}
-                imagem={constItemDicaArma.DICAS_03}
-                dano={'3.2'}
-                alcance={'1'}
-                cadencia={'0'}
-                recarga={'0'}
-                precisao={'1'}
-                condicao={'4'}
-            />
-            <ComponentItemDica
-                titulo={'Machadinha de Corte'}
-                subTitulo={'Arma branca unica, localizada na floresta, próximo de uma fogueira, perto de Annesburs'}
-                imagem={constItemDicaArma.DICAS_04}
-                dano={'3.2'}
-                alcance={'1'}
-                cadencia={'0'}
-                recarga={'0'}
-                precisao={'1'}
-                condicao={'4'}
-            />
-            <ComponentItemDica
-                titulo={'Machadinha de Caçador'}
-                subTitulo={'Arma branca unica, localizada na floresta, próximo de uma casa, escondida em um tronco de árvore, perto de Annesburs'}
-                imagem={constItemDicaArma.DICAS_05}
-                dano={'3.2'}
-                alcance={'1'}
-                cadencia={'0'}
-                recarga={'0'}
-                precisao={'1'}
-                condicao={'4'}
-            />
-            <ComponentItemDica
-                titulo={'Machadinha Dupla Corroída'}
-                subTitulo={'Arma branca unica, localizada na cidade, próximo de uma casa vermelha, em Annesburs'}
-                imagem={constItemDicaArma.DICAS_06}
-                dano={'3.2'}
-                alcance={'1'}
-                cadencia={'0'}
-                recarga={'0'}
-                precisao={'1'}
-                condicao={'4'}
-            />
+            {constItemDicaArma.DICAS.map((item) => (
+                <ComponentItemDica
+                    key={item.id}
+                    imagem={item.imagem}
+                    alt={item.alt}
+                    titulo={item.titulo}
+                    subTitulo={item.subtitulo}
+                    tituloImagem={item.tituloImagem}
+                    subTituloImagem={item.subTituloImagem}
+                    dano={item.dano}
+                    alcance={item.alcance}
+                    cadencia={item.cadencia}
+                    recarga={item.recarga}
+                    precisao={item.precisao}
+                    condicao={item.condicao}
+                />
+            ))}
             <ComponentBotaoTopo />
         </>
     );

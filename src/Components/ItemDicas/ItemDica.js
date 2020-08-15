@@ -8,6 +8,9 @@ const ItemDica = (props) => {
         titulo, //TITULO DO TEXTO  [STRING]
         subTitulo, //SUBTITULO DO TEXTO [STRING]
         imagem, //IMAGEM [ARRAY]
+        alt, //ALT DA IMAGEM [STRING]
+        tituloImagem, //TITULO DA IMAGEM  [STRING]
+        subTituloImagem,//SUBTITULO DA IMAGEM [STRING]
         dano, //SUBTITULO DO TEXTO [STRING]
         alcance, //SUBTITULO DO TEXTO [STRING]
         cadencia, //SUBTITULO DO TEXTO [STRING]
@@ -24,15 +27,14 @@ const ItemDica = (props) => {
                     {imagem.map((img, index) => (
                         <Carousel.Item key={index}>
                             <ComponentCarousel
-                                imagem={img.imagem}
-                                altImagem={img.alt}
-                                titulo={img.titulo}
-                                subTitulo={img.subTitulo}
+                                imagem={img}
+                                altImagem={alt}
+                                titulo={tituloImagem}
+                                subTitulo={subTituloImagem}
                                 link={'#'}
                             />
                         </Carousel.Item>
                     ))}
-
                 </Carousel>
             </Col >
             <Col sm={6} md={6} lg={6}>
