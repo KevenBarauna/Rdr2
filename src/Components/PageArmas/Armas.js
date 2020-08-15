@@ -2,7 +2,7 @@ import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import ComponentItemDica from './../ItemDicas/ItemDica';
 import ComponentCarousel from './../Carousel/Carousel';
-import ConstItemDicaArma from './../../Helpers/ConstItemDicaArma';
+import constItemDicaArma from './../../Helpers/Data/ConstItemDicaArma';
 import './Armas.css';
 import ComponentBotaoTopo from './../BotaoTopo/BotaoTopo';
 import imagemJogo01 from './../../assets/imagem/DicaArmas/Wallpaper-dicas-armas (1).jpg';
@@ -45,7 +45,7 @@ const Armas = (props) => {
             <ComponentItemDica
                 titulo={'Machadinha Viking'}
                 subTitulo={'Arma branca rara, localizada em uma caverna na floresta, perto de Annesburs'}
-                imagem={ConstItemDicaArma.DICAS_01}
+                imagem={constItemDicaArma.DICAS_01}
                 dano={'3.2'}
                 alcance={'1'}
                 cadencia={'0'}
@@ -56,7 +56,7 @@ const Armas = (props) => {
             <ComponentItemDica
                 titulo={'Machadinha'}
                 subTitulo={'Arma branca unica, localizada no fundo de uma casa, perto de Valentine'}
-                imagem={ConstItemDicaArma.DICAS_02}
+                imagem={constItemDicaArma.DICAS_02}
                 dano={'3.2'}
                 alcance={'1'}
                 cadencia={'0'}
@@ -67,7 +67,7 @@ const Armas = (props) => {
             <ComponentItemDica
                 titulo={'Machadinha Dupla'}
                 subTitulo={'Arma branca unica, localizada na floresta, próximo de uma antiga lareira, perto de Valentine'}
-                imagem={ConstItemDicaArma.DICAS_03}
+                imagem={constItemDicaArma.DICAS_03}
                 dano={'3.2'}
                 alcance={'1'}
                 cadencia={'0'}
@@ -78,7 +78,7 @@ const Armas = (props) => {
             <ComponentItemDica
                 titulo={'Machadinha de Corte'}
                 subTitulo={'Arma branca unica, localizada na floresta, próximo de uma fogueira, perto de Annesburs'}
-                imagem={ConstItemDicaArma.DICAS_04}
+                imagem={constItemDicaArma.DICAS_04}
                 dano={'3.2'}
                 alcance={'1'}
                 cadencia={'0'}
@@ -89,7 +89,7 @@ const Armas = (props) => {
             <ComponentItemDica
                 titulo={'Machadinha de Caçador'}
                 subTitulo={'Arma branca unica, localizada na floresta, próximo de uma casa, escondida em um tronco de árvore, perto de Annesburs'}
-                imagem={ConstItemDicaArma.DICAS_05}
+                imagem={constItemDicaArma.DICAS_05}
                 dano={'3.2'}
                 alcance={'1'}
                 cadencia={'0'}
@@ -100,7 +100,7 @@ const Armas = (props) => {
             <ComponentItemDica
                 titulo={'Machadinha Dupla Corroída'}
                 subTitulo={'Arma branca unica, localizada na cidade, próximo de uma casa vermelha, em Annesburs'}
-                imagem={ConstItemDicaArma.DICAS_06}
+                imagem={constItemDicaArma.DICAS_06}
                 dano={'3.2'}
                 alcance={'1'}
                 cadencia={'0'}

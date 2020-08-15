@@ -1,32 +1,32 @@
-import imagemDica01Img01 from './../assets/imagem/DicaArmas/id-01-img-01.png';
-import imagemDica01Img02 from './../assets/imagem/DicaArmas/id-01-img-02.png';
-import imagemDica01Img03 from './../assets/imagem/DicaArmas/id-01-img-03.png';
-import imagemDica01Img04 from './../assets/imagem/DicaArmas/id-01-img-04.png';
+import imagemDica01Img01 from './../../assets/imagem/DicaArmas/id-01-img-01.png';
+import imagemDica01Img02 from './../../assets/imagem/DicaArmas/id-01-img-02.png';
+import imagemDica01Img03 from './../../assets/imagem/DicaArmas/id-01-img-03.png';
+import imagemDica01Img04 from './../../assets/imagem/DicaArmas/id-01-img-04.png';
 
-import imagemDica02Img01 from './../assets/imagem/DicaArmas/id-02-img-01.png';
-import imagemDica02Img02 from './../assets/imagem/DicaArmas/id-02-img-02.png';
-import imagemDica02Img03 from './../assets/imagem/DicaArmas/id-02-img-03.png';
-import imagemDica02Img04 from './../assets/imagem/DicaArmas/id-02-img-04.png';
+import imagemDica02Img01 from './../../assets/imagem/DicaArmas/id-02-img-01.png';
+import imagemDica02Img02 from './../../assets/imagem/DicaArmas/id-02-img-02.png';
+import imagemDica02Img03 from './../../assets/imagem/DicaArmas/id-02-img-03.png';
+import imagemDica02Img04 from './../../assets/imagem/DicaArmas/id-02-img-04.png';
 
-import imagemDica03Img01 from './../assets/imagem/DicaArmas/id-03-img-01.png';
-import imagemDica03Img02 from './../assets/imagem/DicaArmas/id-03-img-02.png';
-import imagemDica03Img03 from './../assets/imagem/DicaArmas/id-03-img-03.png';
-import imagemDica03Img04 from './../assets/imagem/DicaArmas/id-03-img-04.png';
+import imagemDica03Img01 from './../../assets/imagem/DicaArmas/id-03-img-01.png';
+import imagemDica03Img02 from './../../assets/imagem/DicaArmas/id-03-img-02.png';
+import imagemDica03Img03 from './../../assets/imagem/DicaArmas/id-03-img-03.png';
+import imagemDica03Img04 from './../../assets/imagem/DicaArmas/id-03-img-04.png';
 
-import imagemDica04Img01 from './../assets/imagem/DicaArmas/id-04-img-01.png';
-import imagemDica04Img02 from './../assets/imagem/DicaArmas/id-04-img-02.png';
-import imagemDica04Img03 from './../assets/imagem/DicaArmas/id-04-img-03.png';
-import imagemDica04Img04 from './../assets/imagem/DicaArmas/id-04-img-04.png';
+import imagemDica04Img01 from './../../assets/imagem/DicaArmas/id-04-img-01.png';
+import imagemDica04Img02 from './../../assets/imagem/DicaArmas/id-04-img-02.png';
+import imagemDica04Img03 from './../../assets/imagem/DicaArmas/id-04-img-03.png';
+import imagemDica04Img04 from './../../assets/imagem/DicaArmas/id-04-img-04.png';
 
-import imagemDica05Img01 from './../assets/imagem/DicaArmas/id-05-img-01.png';
-import imagemDica05Img02 from './../assets/imagem/DicaArmas/id-05-img-02.png';
-import imagemDica05Img03 from './../assets/imagem/DicaArmas/id-05-img-03.png';
-import imagemDica05Img04 from './../assets/imagem/DicaArmas/id-05-img-04.png';
+import imagemDica05Img01 from './../../assets/imagem/DicaArmas/id-05-img-01.png';
+import imagemDica05Img02 from './../../assets/imagem/DicaArmas/id-05-img-02.png';
+import imagemDica05Img03 from './../../assets/imagem/DicaArmas/id-05-img-03.png';
+import imagemDica05Img04 from './../../assets/imagem/DicaArmas/id-05-img-04.png';
 
-import imagemDica06Img01 from './../assets/imagem/DicaArmas/id-06-img-01.png';
-import imagemDica06Img02 from './../assets/imagem/DicaArmas/id-06-img-02.png';
-import imagemDica06Img03 from './../assets/imagem/DicaArmas/id-06-img-03.png';
-import imagemDica06Img04 from './../assets/imagem/DicaArmas/id-06-img-04.png';
+import imagemDica06Img01 from './../../assets/imagem/DicaArmas/id-06-img-01.png';
+import imagemDica06Img02 from './../../assets/imagem/DicaArmas/id-06-img-02.png';
+import imagemDica06Img03 from './../../assets/imagem/DicaArmas/id-06-img-03.png';
+import imagemDica06Img04 from './../../assets/imagem/DicaArmas/id-06-img-04.png';
 
 export default class ConstItemDicaArma {
 
