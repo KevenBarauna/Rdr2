@@ -13,4 +13,9 @@
 .card-imagem{
     width: 395px;
     padding: 1px;
+    transition: width 1s;
+}
+
+.card-imagem:hover{
+    width: 400px;
 }
