@@ -75,7 +75,7 @@ Fonte padão - [Poppins](https://fonts.google.com/specimen/Poppins?preview.text=
 
 ### Perguntas :question:
 
- - Adicionar nova dica?
+ - Adicionar nova dica?<br>
    No arquivo `src/Helpers/Data/ConstDicas` contem um Array, adicione um novo objeto nesse Array com as seguintes informações:<br>
 
 |  Propriedade  |     Tipo      |     Descrição                                           |             Exemplo            |
@@ -87,7 +87,7 @@ Fonte padão - [Poppins](https://fonts.google.com/specimen/Poppins?preview.text=
 
 <br>
 
- - Adicionar nova arma?
+ - Adicionar nova arma?<br>
     No arquivo `src/Helpers/Data/ConstItemDicaArma` contem um Array, adicione um novo objeto nesse Array com as seguintes informações:<br>
 
 |  Propriedade  |     Tipo      |     Descrição                                           |             Exemplo            |
@@ -96,8 +96,8 @@ Fonte padão - [Poppins](https://fonts.google.com/specimen/Poppins?preview.text=
 |titulo         |     string    | Título exibido ao lado da imagem                        |       'Machadinha Dupla'       |
 |imagem         |      Array    | Imagem exibida no carousel. 1277x674 Pixel              | [imagemDica06Img01, imagemDica06Img02, imagemDica06Img03, imagemDica06Img04],
 |alt            |     string    | [alt da imagem](https://www.w3schools.com/tags/att_img_alt.asp)| 'imagem Machadinha'
-|tituloImagem   |     string    | Título exibido dentro do carousel.                      | 'Cavalos raros'
-|subTituloImagem|     string    | Subtítulo exibido dentro do carousel.                   | 'Esse é o melhor cavalo do jogo.'
+|tituloImagem   |     string    | Título exibido dentro do carousel.                      | 'Machadinha de mão'
+|subTituloImagem|     string    | Subtítulo exibido dentro do carousel.                   | 'Muito forte e rápida!'
 |dano           |     string    | Dano da arma(de 0 até 4). Não obrigátorio               | '2'
 |alcance        |     string    | Alcance da arma(de 0 até 4). Não obrigátorio            | '3'
 |cadencia       |     string    | Cadencia da arma(de 0 até 4) . Não obrigátorio          | '1'
@@ -108,4 +108,4 @@ Fonte padão - [Poppins](https://fonts.google.com/specimen/Poppins?preview.text=
 <br>
 
 ### Menções :page_with_curl:
-- As dicas da [página de dicas](http://localhost:3000/dicas) foi retirado do [techtudo](https://www.techtudo.com.br/listas/2018/11/red-dead-redemption-2-confira-dez-dicas-para-mandar-bem-no-jogo.ghtml)
+- As dicas da [página de dicas](http://localhost:3000/dicas) foram retiradas do [techtudo](https://www.techtudo.com.br/listas/2018/11/red-dead-redemption-2-confira-dez-dicas-para-mandar-bem-no-jogo.ghtml)
