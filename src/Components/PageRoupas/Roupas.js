@@ -1,7 +1,6 @@
 import React from 'react';
 import { Row, Figure } from 'react-bootstrap';
 import './Roupas.css';
-import ComponentBotaoTopo from './../BotaoTopo/BotaoTopo';
 import constRoupa from './../../Helpers/Data/ConstRouas';
 const Roupas = (props) => {
 
@@ -26,7 +25,6 @@ const Roupas = (props) => {
                 ))}
 
             </Row>
-            <ComponentBotaoTopo />
         </div >
     );
 }

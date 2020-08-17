@@ -23,7 +23,6 @@ const Pagina404 = (props) => {
             default: return imagemModelo01;
         }
     }
-    sortearImagem();
 
     return (
         <div className='pagina-404-container'>

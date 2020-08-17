@@ -1,12 +1,10 @@
 .pagina-404-container{
     display: inline-flex;
     font-family: 'Poppins', sans-serif;
+    height: 100%;
 }
 
 .pagina-404-col{
-    height: 450px;
-    display: inline-block;
-    margin-right: 10px;
     margin-top: 70px;
     text-align: center;
 }
