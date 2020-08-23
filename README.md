@@ -16,10 +16,12 @@ Este projeto foi iniciado com o [Create React App](https://github.com/facebook/c
 ### Tecnologias: :mag:
 - [react-bootstrap](https://react-bootstrap.github.io/getting-started/introduction)  
 - [react-router-dom](https://reactrouter.com/web/guides/quick-start)
+- [Axios](https://www.npmjs.com/package/axios)
 
 ```
 npm install react-bootstrap bootstrap
 npm install react-router-dom
+npm install --save axios
 ```
 
 ### Iniciar o projeto :outbox_tray:
