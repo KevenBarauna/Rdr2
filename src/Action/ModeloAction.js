@@ -1,17 +1,21 @@
 import { TESTE } from './../Helpers/Const/ActionType';
-import Service from './../Services/ModeloService';
+import axios from "axios";
 
-const exemploPost = (item) => dispatch => {
-    //dispatch(startLoading(LOADING_IDENTIFICATOR));
-    Service.ExemploPost()
-        .then(response => {
-            dispatch({
-                type: TESTE.TESTE_POST,
-                payload: response.data,
-            });
-        })
-        .catch(error => console.log(error))
-        // .finally(() => {
-        //     dispatch(endLoading(LOADING_IDENTIFICATOR));
-        // });
-};
+ export async  function ModeloAction(values){
+    const res = await  axios.get('https://api.github.com/users/KevenBarauna')
+   .then(function(response){
+     console.log(response.data);
+     console.log(response.status); 
+     return{
+      type: TESTE.TESTE_GET, 
+      payload: response.status 
+   }
+   });
+ };
+
+
+ export default {
+   ModeloAction,
+ };
+
+  
