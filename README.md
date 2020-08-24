@@ -17,11 +17,14 @@ Este projeto foi iniciado com o [Create React App](https://github.com/facebook/c
 - [react-bootstrap](https://react-bootstrap.github.io/getting-started/introduction)  
 - [react-router-dom](https://reactrouter.com/web/guides/quick-start)
 - [Axios](https://www.npmjs.com/package/axios)
+- [Redux](https://redux.js.org/basics/usage-with-react)
 
 ```
 npm install react-bootstrap bootstrap
 npm install react-router-dom
 npm install --save axios
+npm install react-redux
+npm install --save redux
 ```
 
 ### Iniciar o projeto :outbox_tray:
