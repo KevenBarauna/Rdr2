@@ -13,7 +13,7 @@ const Login = (props) => {
     const [senhaUsuario, setsenhaUsuario] = useState([]);
 
     function onSubmit() {
-        props.action({nome: nomeUsuario, senha: senhaUsuario})
+        action({nome: nomeUsuario, senha: senhaUsuario})
     }
 
     return (
