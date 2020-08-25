@@ -14,25 +14,16 @@ export const buscarDadosUsuario =(user) => {
         })
         .then(res => 
             dispatch({
-                type: USUARIO.NOME_USUARIO,
-                payload: res
-            }),   
-            dispatch({
-                type: USUARIO.SENHA_USUARIO,
-                payload: 'res'
-            })   
+                type: USUARIO.USER,
+                payload: res.data
+            }),
         )
         .catch(error =>
-         console.log('$ Erro - ', error),
-         dispatch({
-            type: USUARIO.NOME_USUARIO,
-            payload: user.nome
-        }),   
-        dispatch({
-            type: USUARIO.SENHA_USUARIO,
-            payload: user.senha
-        }) 
+            dispatch({
+                type: USUARIO.USER,
+                payload: {nome: user.nome, senha: user.senha, token: 'TOKENTESTEMOCK', id: '1'}
+            }),
         )
     }
-  }
+}
 

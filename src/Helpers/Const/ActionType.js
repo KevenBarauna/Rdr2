@@ -1,15 +1,15 @@
-export const TESTE = {
-    TESTE_POST: "TESTE_POST",
-    TESTE_GET: "TESTE_GET",
+export const MOCK = {
+    USUARIO: "USUARIO",
 };
 
 export const USUARIO = {
+    USER: "USER",
     NOME_USUARIO: "NOME_USUARIO",
     SENHA_USUARIO: "SENHA_USUARIO",
 };
 
 export default {
-    TESTE,
+    MOCK,
     USUARIO,
 };
 
