@@ -25,6 +25,7 @@ npm install react-router-dom
 npm install --save axios
 npm install react-redux
 npm install --save redux
+npm install --save redux-thunk
 ```
 
 ### Iniciar o projeto :outbox_tray:

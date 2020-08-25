@@ -1,3 +1,16 @@
-import { createStore } from 'redux';
-import reducer  from './../../Reducers/Index';
-export default createStore(reducer);
+import { createStore, applyMiddleware } from 'redux';
+import thunk from 'redux-thunk';
+import rootReducer from './../../Reducers/Index';
+//import jwtDecode from 'jwt-decode';
+
+const initialState = {};
+
+const middleware  = [thunk];
+
+const store = createStore(
+    rootReducer,
+    initialState,
+    applyMiddleware(...middleware)
+);
+
+export default store;
