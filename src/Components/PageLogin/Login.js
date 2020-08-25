@@ -1,10 +1,20 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Form, Button, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Login.css';
 import Util from './../../Helpers/Util';
 
 const Login = (props) => {
+    const {
+        action,
+    } = props;
+
+    const [nomeUsuario, setnomeUsuario] = useState([]);
+    const [senhaUsuario, setsenhaUsuario] = useState([]);
+
+    function onSubmit() {
+        props.action({nome: nomeUsuario, senha: senhaUsuario})
+    }
 
     return (
         <div className='login-fundo'>
@@ -13,11 +23,21 @@ const Login = (props) => {
                 <Form className='login-form'>
                     <Form.Label className='login-titulo'>Login</Form.Label>
                     <Form.Group controlId="formBasicEmail" style={{ marginBottom: '30px' }}>
-                        <Form.Control size="lg" type="email" placeholder="E-mail" />
+                        <Form.Control 
+                        size="lg" 
+                        type="email" 
+                        placeholder="E-mail" 
+                        onChange={(event) => setnomeUsuario(event.target.value)}
+                        />
                     </Form.Group>
 
                     <Form.Group controlId="formBasicPassword">
-                        <Form.Control size="lg" type="password" placeholder="Password" />
+                        <Form.Control 
+                        size="lg" 
+                        type="password" 
+                        placeholder="Senha" 
+                        onChange={(event) => setsenhaUsuario(event.target.value)}
+                        />
                     </Form.Group>
 
                     <Row>
@@ -30,7 +50,7 @@ const Login = (props) => {
                         <Form.Check type="checkbox" label="Continuar conectado" />
                     </Form.Group>
 
-                    <Button variant="primary" size="lg" block>
+                    <Button variant="primary" size="lg" block onClick={onSubmit}>
                         Entrar
                     </Button>
 
