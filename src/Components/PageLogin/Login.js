@@ -13,7 +13,14 @@ const Login = (props) => {
     const [senhaUsuario, setsenhaUsuario] = useState([]);
 
     function onSubmit() {
-        action({nome: nomeUsuario, senha: senhaUsuario})
+        if(nomeUsuario === ' ' || nomeUsuario.length === 0){
+            alert('Informe o nome de usuário')
+        }
+        else if(senhaUsuario === ' ' || senhaUsuario.length === 0){
+            alert('Informe a sua senha')
+        }else{
+            action({nome: nomeUsuario, senha: senhaUsuario})
+        }
     }
 
     return (

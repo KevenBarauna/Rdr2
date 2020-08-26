@@ -1,8 +1,9 @@
 import React from 'react';
-import { Row, Col, Button } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 import imagemLogo from './../../assets/imagem/logo.png'
+import PerfilTopoUsuario from '../../Components/PerfilTopoUsuario/PerfilTopoUsuario';
 import './Topo.css';
 
 const Topo = (props) => {
@@ -27,9 +28,7 @@ const Topo = (props) => {
                 </Col>
                 <Col className='topo-nav' sm={12} md={1} lg={1}>
                     <Row className='topo-item topo-btn-login'>
-                        <Link to='/login'>
-                            <Button variant="outline-danger">Login</Button>{' '}
-                        </Link>
+                        <PerfilTopoUsuario/>
                     </Row>
                 </Col>
             </Row>

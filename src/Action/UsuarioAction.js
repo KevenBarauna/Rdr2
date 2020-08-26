@@ -1,4 +1,5 @@
 import { USUARIO } from './../Helpers/Const/ActionType';
+import { LOCAL_STORAGE } from './../Helpers/Const/Sotarege';
 import axios from "axios";
 
 
@@ -19,11 +20,25 @@ export const buscarDadosUsuario =(user) => {
             }),
         )
         .catch(error =>
+            salvarUsuarioStorage(user),
             dispatch({
                 type: USUARIO.USER,
                 payload: {nome: user.nome, senha: user.senha, token: 'TOKENTESTEMOCK', id: '1'}
             }),
         )
+    }
+}
+
+export const salvarUsuarioStorage = (user) => {
+    localStorage.setItem(LOCAL_STORAGE.usuario, JSON.stringify({nome: user.nome, senha: user.senha, token: 'TOKENTESTEMOCK', id: '1'}))
+}
+export const removerUsuarioStorage = () => {
+    localStorage.removeItem(LOCAL_STORAGE.usuario);
+    return (dispatch) => {
+        dispatch({
+            type: USUARIO.USER,
+            payload: null
+        }) 
     }
 }
 
