@@ -3,6 +3,7 @@ import { useDispatch } from 'react-redux';
 import { Button, Dropdown } from 'react-bootstrap';
 import { connect } from "react-redux";
 import { Link } from 'react-router-dom';
+import linkRota from './../../Helpers/Const/Links';
 import './PerfilTopoUsuario.css';
 import { removerUsuarioStorage } from './../../Action/UsuarioAction';
 
@@ -25,12 +26,12 @@ const PerfilTopoUsuario = (props) => {
               </Dropdown.Toggle>
             
               <Dropdown.Menu>
-                <Dropdown.Item href="/404">Perfil</Dropdown.Item>
+                <Dropdown.Item href={linkRota.perfil}>Perfil</Dropdown.Item>
                 <Dropdown.Item onClick={removerUser}>Sair</Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
             ):(
-                <Link to='/login'>
+                <Link to={linkRota.login}>
                 <Button variant="outline-danger">Login</Button>{' '}
              </Link>
             )}

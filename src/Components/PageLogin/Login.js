@@ -3,6 +3,7 @@ import { Form, Button, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Login.css';
 import Util from './../../Helpers/Util';
+import linkRota from './../../Helpers/Const/Links';
 
 const Login = (props) => {
     const {
@@ -63,7 +64,7 @@ const Login = (props) => {
 
                     <Row style={{ textAlign: 'center', marginTop: '30px' }}>
                         <Form.Group controlId="formBasicCheckbox" style={{ width: '100%' }}>
-                            <Form.Label className='login-criar-conta'>Novo no {Util.NOME_PROJETO}? <Link to='/404'>Inscreva-se agora.</Link></Form.Label>
+                            <Form.Label className='login-criar-conta'>Novo no {Util.NOME_PROJETO}? <Link to={linkRota.criarConta}>Inscreva-se agora.</Link></Form.Label>
                         </Form.Group>
                     </Row>
 
