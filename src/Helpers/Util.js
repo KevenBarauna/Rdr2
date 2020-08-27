@@ -6,5 +6,6 @@ export default class Util {
 
     static get setTitle(){
         document.title = this.NOME_PROJETO + ' - '+ process.env.REACT_APP_VERSION;
+        return null
     }
 }
