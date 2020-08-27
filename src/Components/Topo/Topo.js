@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 import imagemLogo from './../../assets/imagem/logo.png'
 import PerfilTopoUsuario from '../../Components/PerfilTopoUsuario/PerfilTopoUsuario';
+import linkRota from './../../Helpers/Const/Links';
 import './Topo.css';
 
 const Topo = (props) => {
@@ -12,18 +13,18 @@ const Topo = (props) => {
         <header className='topo-header'>
             <Row style={{ padding: '10px' }}>
                 <Col className='topo-div-imagem' sm={12} md={4} lg={4}>
-                    <Link to='/home'>
+                    <Link to={linkRota.home}>
                         <img id='pontoZero' className='topo-imagem-logo' src={imagemLogo} alt='logo' ></img>
                     </Link>
                 </Col>
                 <Col className='topo-nav' sm={12} md={7} lg={7}>
                     <Row className='topo-item'>
-                        <li><Link to='/404'>Mapa</Link></li>
-                        <li><Link to='/armas'>Armas</Link></li>
-                        <li><Link to='/roupas'>Roupas</Link></li>
-                        <li><Link to='/404'>Músicas</Link></li>
-                        <li><Link to='/dicas'>Dicas</Link></li>
-                        <li><Link to='/404'>Fotos</Link></li>
+                        <li><Link to={linkRota.mapa}>Mapa</Link></li>
+                        <li><Link to={linkRota.armas}>Armas</Link></li>
+                        <li><Link to={linkRota.roupas}>Roupas</Link></li>
+                        <li><Link to={linkRota.musicas}>Músicas</Link></li>
+                        <li><Link to={linkRota.dicas}>Dicas</Link></li>
+                        <li><Link to={linkRota.fotos}>Fotos</Link></li>
                     </Row>
                 </Col>
                 <Col className='topo-nav' sm={12} md={1} lg={1}>

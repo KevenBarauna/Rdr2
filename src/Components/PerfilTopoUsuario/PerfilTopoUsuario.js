@@ -13,9 +13,9 @@ const PerfilTopoUsuario = (props) => {
         usuario, 
     } = props;
 
-    const removerUser = useCallback(() => {
+    const removerUser = () => {
         dispatch( removerUsuarioStorage());
-    })
+    }
 
     return (
         <>
