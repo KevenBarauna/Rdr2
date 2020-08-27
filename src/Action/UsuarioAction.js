@@ -1,9 +1,11 @@
 import { USUARIO } from './../Helpers/Const/ActionType';
 import { LOCAL_STORAGE } from './../Helpers/Const/Sotarege';
+import linkRota from './../Helpers/Const/Links';
 import axios from "axios";
 
 
-const API_HOST = process.env.REACT_APP_API_HOST_URL_GAME;
+const API_HOST = process.env.REACT_APP_API_SERVER;
+const WEB_HOST = process.env.REACT_APP_WEB_SERVER;
 
 export const buscarDadosUsuario =(user) => {
     return (dispatch) => {
@@ -25,6 +27,7 @@ export const buscarDadosUsuario =(user) => {
                 type: USUARIO.USER,
                 payload: {nome: user.nome, senha: user.senha, token: 'TOKENTESTEMOCK', id: '1'}
             }),
+            window.location.href =  `${WEB_HOST}${linkRota.home}`
         )
     }
 }
