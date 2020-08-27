@@ -1,3 +1,5 @@
+import linkExtorno from './../Const/LinkExterno';
+
 export default class Link {
 
     static get pageNotFound() {
@@ -21,7 +23,7 @@ export default class Link {
     }
 
     static get musicas() {
-        return '/404';
+        return linkExtorno.musicas;
     }
 
     static get dicas() {
@@ -36,52 +38,29 @@ export default class Link {
         return '/login';
     }
 
-    static get duvidas() {
-        return '/404';
-    }
-
     static get sobreProjeto() {
-        return '/404';
+        return linkExtorno.sobreProjeto;
     }
 
-    static get direitosAutorais() {
-        return '/404';
-    }
-
-    static get autor() {
-        return '/404';
-    }
-
-    static get original() {
-        return '/404';
-    }
 
     static get contribuir() {
-        return '/404';
+        return linkExtorno.contribuir;
     }
 
     static get loremIpsum() {
         return '/404';
     }
 
-    static get contato() {
-        return '/404';
-    }
-
     static get linkedin() {
-        return '/https://www.linkedin.com/in/keven-bara%C3%BAna-2a9a47173/';
+        return linkExtorno.linkedin;
     }
 
     static get instagram() {
-        return '/404';
+        return linkExtorno.instagram;
     }
 
     static get git() {
-        return '/https://github.com/KevenBarauna/Rdr2';
-    }
-
-    static get email() {
-        return '/404';
+        return linkExtorno.git;
     }
 
     static get criarConta() {
