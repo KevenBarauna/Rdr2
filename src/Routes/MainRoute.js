@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Redirect, Switch } from 'react-router-dom';
 import { connect } from "react-redux";
 import link from './../Helpers/Const/Links';
+import Util from './../Helpers/Util';
 import ComponentTopo from './../Components/Topo/Topo';
 import ComponentFooter from './../Components/Footer/Footer';
 
@@ -18,6 +19,7 @@ class MainRoute extends React.Component {
         return (
             < BrowserRouter >
             <ComponentTopo usuario={this.props.user}/>
+            {Util.setTitle}
             <Switch>
                 <Route path='/' component={Home} exact />
                 <Route path={link.home} component={Home} />

@@ -4,4 +4,7 @@ export default class Util {
         return 'kevenRdr2';
     }
 
+    static get setTitle(){
+        document.title = this.NOME_PROJETO + ' - '+ process.env.REACT_APP_VERSION;
+    }
 }
