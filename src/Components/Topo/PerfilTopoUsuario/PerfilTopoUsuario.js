@@ -1,5 +1,5 @@
 import React from 'react';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { Button, Dropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import linkRota from './../../../Helpers/Const/Links';
@@ -8,9 +8,10 @@ import usuarioAction from './../../../Action/UsuarioAction';
 
 const PerfilTopoUsuario = (props) => {
     const dispatch = useDispatch();
-    const {
-        usuario,
-    } = props;
+
+    const usuario = useSelector(
+        state => state.usuarioReducer.usuario
+    );
 
     const removerUser = () => {
         dispatch(usuarioAction.removerUsuarioStorage());
