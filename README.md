@@ -4,7 +4,15 @@
 `$ git checkout develop`
 
 ### Projeto: :mailbox: 
- As poucas experiências acumuladas como dev, demonstram que o desenvolvimento front-end é muito importante e amplo, uma biblioteca que tenho visto crescer cada vez mais é o [React](https://pt-br.reactjs.org/), biblioteca JavaScript muito popular (É utilizado nos sites da Netflix, Imgur, Feedly, Airbnb, SeatGeek, HelloSign, Walmart e outro). Com o intuito de praticar criei uma interface de usuário que mostra dicas bem legais do jogo [Red dead redemption 2](https://www.rockstargames.com/reddeadredemption2/), pois é um jogo que estou gostando muito, então como no meu tempo livre estou jogando e no tempo de trabalho entre uma folga e outra estou estudando React criei esse projeto para praticar bastante! :)
+Interface que mostra dicas sobre o jogo [Red dead redemption 2](https://www.rockstargames.com/reddeadredemption2/)
+- Consumir dados de uma api
+- React Hooks e Redux para salvar dados do usuário
+- React Router para navegação entre páginas
+- Componentes do React bootstrap
+- Formulário com React
+
+### Motivação: :mailbox: 
+ As poucas experiências acumuladas como dev, demonstram que o desenvolvimento front-end é muito importante e amplo, uma biblioteca que tenho visto crescer cada vez mais é o [React](https://pt-br.reactjs.org/), biblioteca JavaScript muito populat. Com o intuito de praticar criei uma interface de usuário que mostra dicas bem legais do jogo [Red dead redemption 2](https://www.rockstargames.com/reddeadredemption2/), pois é um jogo que estou gostando muito, então como no meu tempo livre estou jogando e no tempo de trabalho entre uma folga e outra estou estudando React criei esse projeto para praticar bastante! :)
 
 
 Este projeto foi iniciado com o [Create React App](https://github.com/facebook/create-react-app)<br>
@@ -23,8 +31,8 @@ Este projeto foi iniciado com o [Create React App](https://github.com/facebook/c
 npm install react-bootstrap bootstrap
 npm install react-router-dom
 npm install --save axios
-npm install react-redux
 npm install --save redux
+npm install react-redux
 npm install --save redux-thunk
 ```
 
@@ -65,11 +73,9 @@ font-size: 20px;
 <sub>Imagens do readme: `src/assets/git`</sub> <br>
 <sub>Css: Dentro de cada pasta de cada componente deve conter seu próprio arquivo css</sub> <br>
 <sub>Nome do projeto: Pegue o nome do projeto dentro de `Helpers/Util` pois o nome do projeto deve ser alterado em breve</sub> <br>
-<sub>Página: Toda página nova deve ser inserida em `src/View` e seus componentes devem ser criados em `src/Components` , caso esse componente seja uma página intenira a pasta que contém essse componente deve começar com a palavra `Page`</sub> <br>
 
 ### Dicas :speech_balloon:
 Para criar a logo online você pode fazer no [fontmeme](https://fontmeme.com/netflix-font/)<br>
-Para entender mais é possível assistir um mini curso em [Alura](https://www.alura.com.br/imersao-react/aula01-react-aluraflix)<br>
 [Emojis](https://www.webfx.com/tools/emoji-cheat-sheet/) do README.md
 
 ### Cores :art:
@@ -115,3 +121,4 @@ Fonte padão - [Poppins](https://fonts.google.com/specimen/Poppins?preview.text=
 
 ### Menções :page_with_curl:
 - As dicas da [página de dicas](http://localhost:3000/dicas) foram retiradas do [techtudo](https://www.techtudo.com.br/listas/2018/11/red-dead-redemption-2-confira-dez-dicas-para-mandar-bem-no-jogo.ghtml)
+- Obrigado [arjdev69](https://github.com/arjdev69) pela ajuda na configuração do Redux
