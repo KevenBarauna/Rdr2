@@ -30,10 +30,6 @@ export default class Link {
         return '/dicas';
     }
 
-    static get fotos() {
-        return '/404';
-    }
-
     static get login() {
         return '/login';
     }

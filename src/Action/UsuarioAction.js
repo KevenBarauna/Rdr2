@@ -8,10 +8,10 @@ import usuarioService from './../Services/UsuarioService';
 const buscarDadosUsuario = (user) => dispatch => {
     usuarioService.buscarDadosUsuario()
         .then(response => {
-            dispatch({
-                type: USUARIO.USER,
-                payload: response.data
-            });
+            // dispatch({
+            //     type: USUARIO.USER,
+            //     payload: response.data
+            // });
         })
         .catch(erro => console.log('ERRO: - ', erro))
         .finally(

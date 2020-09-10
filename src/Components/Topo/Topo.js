@@ -24,7 +24,6 @@ const Topo = (props) => {
                         <li><Link to={linkRota.roupas}>Roupas</Link></li>
                         <li><Link to={linkRota.musicas}>Músicas</Link></li>
                         <li><Link to={linkRota.dicas}>Dicas</Link></li>
-                        <li><Link to={linkRota.fotos}>Fotos</Link></li>
                     </Row>
                 </Col>
                 <Col className='topo-nav' sm={12} md={1} lg={1}>
