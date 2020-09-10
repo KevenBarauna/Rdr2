@@ -1,9 +1,9 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import ComponentItemDica from './../ItemDicas/ItemDica';
-import ComponentCarousel from './../Carousel/Carousel';
+import ComponentItemDica from './../../Components/ItemDicas/ItemDica';
+import ComponentCarousel from './../../Components/Carousel/Carousel';
 import constItemDicaArma from './../../Helpers/Data/ConstItemDicaArma';
-import ComponentBotaoTopo from './../BotaoTopo/BotaoTopo';
+import ComponentBotaoTopo from './../../Components/BotaoTopo/BotaoTopo';
 import imagemJogo01 from './../../assets/imagem/DicaArmas/Wallpaper-dicas-armas (1).jpg';
 import imagemJogo02 from './../../assets/imagem/DicaArmas/Wallpaper-dicas-armas (2).jpg';
 import imagemJogo03 from './../../assets/imagem/DicaArmas/Wallpaper-dicas-armas (3).jpg';

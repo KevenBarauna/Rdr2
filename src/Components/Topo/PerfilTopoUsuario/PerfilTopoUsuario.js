@@ -2,9 +2,9 @@ import React from 'react';
 import { useDispatch } from 'react-redux';
 import { Button, Dropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import linkRota from './../../Helpers/Const/Links';
+import linkRota from './../../../Helpers/Const/Links';
 import './PerfilTopoUsuario.css';
-import usuarioAction from './../../Action/UsuarioAction';
+import usuarioAction from './../../../Action/UsuarioAction';
 
 const PerfilTopoUsuario = (props) => {
     const dispatch = useDispatch();

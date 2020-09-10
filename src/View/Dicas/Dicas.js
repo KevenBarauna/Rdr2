@@ -1,8 +1,8 @@
 import React from 'react';
 import { Row } from 'react-bootstrap';
 import './Dicas.css';
-import ComponentBotaoTopo from './../BotaoTopo/BotaoTopo';
-import ComponentCard from './../Card/Card';
+import ComponentBotaoTopo from './../../Components/BotaoTopo/BotaoTopo';
+import ComponentCard from './../../Components/Card/Card';
 import constDicas from './../../Helpers/Data/ConstDicas';
 const Dicas = (props) => {
 

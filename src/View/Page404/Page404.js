@@ -9,7 +9,7 @@ import imagemModelo03 from './../../assets/imagem/404-modelo-03.png';
 import imagemModelo04 from './../../assets/imagem/404-modelo-04.png';
 import imagemModelo05 from './../../assets/imagem/404-modelo-05.png';
 
-const Pagina404 = (props) => {
+const Page404 = (props) => {
 
     const link = window.location.href;
 
@@ -40,4 +40,4 @@ const Pagina404 = (props) => {
     );
 }
 
-export default Pagina404;
+export default Page404;
