@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen','Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +11,28 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* GLOBAL */
+p{
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.row{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* VARIAVEIS */
+* {
+  --cor-vermelho:#DB202C;
+  --cor-vermelhoEscuro: #c51d28;
+  --cor-vermelhoVinho: #660007;
+  --cor-laranja: #f6a400;
+  --cor-preto: #141414;
+  --cor-pretoTotal: #000000;
+  --cor-branco: #ffffff;
+  --cor-cinzaSuperEscuro: #1a1a1a;
+  --cor-cinza: #757575;
 }

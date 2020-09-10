@@ -1,0 +1,46 @@
+.pagina-404-container{
+    display: inline-flex;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+}
+
+.pagina-404-col{
+    margin-top: 70px;
+    text-align: center;
+}
+
+.pagina-404-row{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+
+
+.pagina-404-titulo{
+    font-weight: 700;
+    margin-top: 25%;
+    font-size: 25pt;
+}
+
+.pagina-404-subtitulo{
+    font-size: 12pt;
+    margin-top: 15px;
+}
+
+.pagina-404-link{
+    font-size: 10pt;
+    margin-top: 15px;
+    color: #757575;
+}
+
+.pagina-404-aviso{
+    font-size: 20pt;
+    margin-top: 15px;
+}
+
+.pagina-404-link{
+    font-size: 10pt;
+    margin-top: 15px;
+    text-decoration: none;
+    color: var(--cor-cinza);;
+}

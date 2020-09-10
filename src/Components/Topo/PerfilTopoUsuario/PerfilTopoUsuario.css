@@ -1,0 +1,13 @@
+.PerfilTopoUsuario-nome{
+    color: var(--cor-branco);
+}
+
+.PerfilTopoUsuario-Accordion{
+    background-color: transparent;
+    border-style: none;
+}
+
+.PerfilTopoUsuario-Accordion:hover{
+    background-color: transparent;
+    border-style: none;
+}

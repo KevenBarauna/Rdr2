@@ -1,0 +1,44 @@
+.itemDica-background{
+    background-color: var(--cor-pretoTotal);
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 10px;
+    border-top: 10px solid var(--cor-cinzaSuperEscuro);
+}
+
+.itemDica-titulo{
+    color: var(--cor-branco);
+    font-size: 35pt;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.itemDica-sub-titulo{
+    color: var(--cor-branco);
+    font-size: 16pt;
+    width: 35%;
+    margin-bottom: 20px;
+}
+
+.itemDica-informacoes{
+    color: var(--cor-laranja);
+}
+
+
+/* MOBILE */
+@media only screen and (max-width: 830px) {
+
+
+    .itemDica-sub-titulo {
+        margin-left: 15% !important;
+        width: 80% !important;
+        font-size: 8pt !important;
+    }
+
+    .itemDica-titulo{
+        margin-left: 15% !important;
+        width: 80% !important;
+        font-size: 15pt !important;
+    }
+    
+}

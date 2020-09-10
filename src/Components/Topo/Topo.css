@@ -1,0 +1,56 @@
+.topo-imagem-logo{
+    height: 40px;
+    margin-left: 10%;
+}
+
+.topo-div-imagem{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topo-header{
+    width: 100%;
+    background-color: var(--cor-preto);
+}
+
+.topo-nav {
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.topo-nav li{
+    display: inline;
+    margin: 0 0 0 60px;
+    text-align: center;
+}
+
+.topo-nav a{
+    text-transform: uppercase;
+    color: var(--cor-vermelho);
+    font-weight: bold;
+    font-size: 12pt;
+    text-decoration: none;
+    transition: color 5s;
+}
+
+.topo-nav a:hover{
+    color:var(--cor-vermelhoVinho);
+}
+
+/* MOBILE */
+@media only screen and (max-width: 745px) {
+    .topo-imagem-logo{
+        margin-left: 45%;
+    }
+
+    .topo-item{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .topo-btn-login{
+        margin-left: 45%;
+        width: 20%;
+    }
+}
